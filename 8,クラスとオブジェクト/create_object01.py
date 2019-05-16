@@ -2,7 +2,7 @@
 class Book:
     title = '絵本'
     price = 1680
-    def printPrice(self, num):
+    def printPrice(self, num): # selfは自分自身のオブジェクトを表す。
         print(self.title, ':', num, ' 冊で', self.price * num, '円')
 
 book1 = Book()
